@@ -1,3 +1,3 @@
 # AdaptMVSNet
 
-# nanhulab affiliation
+# NanHuLab Affiliation
