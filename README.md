@@ -3,8 +3,8 @@
 # NanHuLab Affiliation
 
 # installion 
-1. These project ned to be installed: torch 1.12.1, python 3.8, cuda >= 10.1
-2. Please install Tensorrt, if you want to test in fast inference.
+* These project ned to be installed: torch 1.12.1, python 3.8, cuda >= 10.1
+* Please install Tensorrt, if you want to test in fast inference.
 ```
 pip install -r requirements.txt
 ```
@@ -25,8 +25,7 @@ root_directory
       │   ├── 00000001_cam.txt   
       │   └── ...                
       └── pair.txt  
-```
-2. Testing data: 
+``` 
 
 # Testing 
 running eval.sh, using dtu dataset 
