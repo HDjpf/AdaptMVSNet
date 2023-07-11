@@ -28,4 +28,5 @@ root_directory
 ``` 
 
 # Testing 
-running eval.sh, using dtu dataset 
+* running eval.sh, using dtu dataset
+* In eval.sh, set DTU_TESTING, ETH3D_TESTING or TANK_TESTING as the root directory of corresponding dataset and uncomment the evaluation command for corresponding dataset (default is to evaluate on DTU's evaluation set). If you want to change the output location (default is same as input one), modify the --output_folder parameter. 
