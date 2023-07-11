@@ -30,4 +30,5 @@ root_directory
 # Testing 
 * running eval.sh, using dtu dataset
 * In eval.sh, set DTU_TESTING, ETH3D_TESTING or TANK_TESTING as the root directory of corresponding dataset and uncomment the evaluation command for corresponding dataset (default is to evaluate on DTU's evaluation set). If you want to change the output location (default is same as input one), modify the --output_folder parameter.
-* CKPT_FILE is the checkpoint file (our pretrained model is ./checkpoints/params_000007.ckpt), change it if you want to use your own model. 
+* CKPT_FILE is the checkpoint file (our pretrained model is ./checkpoints/params_000007.ckpt), change it if you want to use your own model.
+* Test on GPU by running sh eval.sh. The code includes depth map estimation and depth fusion. The outputs are the point clouds in ply format.
