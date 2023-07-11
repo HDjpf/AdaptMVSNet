@@ -37,3 +37,8 @@ root_directory
   | Acc.(mm) | Comp.(mm) | Overall.(mm) |
   |----------|-----------|--------------|
   | 0.445    | 0.257     | 0.351        |
+
+# Training 
+* Download pro-processed [DTU's training set](https://polybox.ethz.ch/index.php/s/ugDdJQIuZTk4S35).
+* In train.sh, set MVS_TRAINING as the root directory of the converted dataset; set --output_path as the directory to store the checkpoints.
+* Train the model by running sh train.sh.
