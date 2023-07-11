@@ -5,7 +5,13 @@
 # installion 
 1. These project ned to be installed: torch 1.12.1, python 3.8, cuda >= 10.1
 2. Please install Tensorrt, if you want to test in fast inference.
-
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
 ...
 pip install -r requirements.txt
 ...
