@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 
 # Download 
-1. Preprocessed training/validation data: [DTU](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view)
+1. Preprocessed training/validation data: [DTU](https://drive.google.com/file/d/1jN8yEQX0a-S22XwUjISM8xSJD39pFLL_/view?usp=sharing)
 2. Testing data: 
 
 # Testing 
