@@ -3,7 +3,7 @@
 # NanHuLab Affiliation
 
 # Show 
-![Our](https://github.com/HDjpf/AdaptMVSNet/edit/main/our011.png)
+![Our](https://github.com/HDjpf/AdaptMVSNet/blob/main/our011_.png)
 # installion 
 * These project ned to be installed: torch 1.12.1, python 3.8, cuda >= 10.1
 * Please install Tensorrt, if you want to test in fast inference.
