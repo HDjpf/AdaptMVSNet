@@ -1,5 +1,5 @@
 # AdaptMVSNet
-[paper]()
+[Paper](https://github.com/HDjpf/AdaptMVSNet/blob/main/AdaptMVSNet__Efficient_Multi_View_Stereo_with_Adaptive_Convolution_and_Attention_Fusion.pdf)
 # NanHuLab Affiliation
 
 # Show 
