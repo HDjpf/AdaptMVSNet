@@ -462,16 +462,6 @@ if __name__ == '__main__':
         scans = f.readlines()
         scans = [line.rstrip() for line in scans]
 
-    # img_wh = (768,576)
-    # scan_id = 0
-    # for scan in scans:
-    #     scan_id += 1
-    #     scan_folder = os.path.join(args.testpath, scan)
-    #     out_folder = os.path.join(args.outdir, scan)
-    #     # step2. filter saved depth maps with geometric constraints
-    #     filter_depth_blend(scan_folder, out_folder, os.path.join(args.outdir, 'blend{:0>3}_l3.ply'.format(scan_id)),
-    #                  args.geo_pixel_thres, args.geo_depth_thres, args.photo_thres, img_wh)
-
     img_wh = (1600, 1200)
     for scan in scans:
         scan_id = int(scan[4:])
